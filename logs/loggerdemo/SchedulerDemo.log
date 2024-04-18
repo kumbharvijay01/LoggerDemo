@@ -1,0 +1,77 @@
+2024-04-18 20:52:57,435 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ScheduleDemoApplication using Java 17.0.4.1 on L-5CD119JCNF with PID 14580 (D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo\target\classes started by vijaykumbhar in D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo)
+2024-04-18 20:52:57,435 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ScheduleDemoApplication using Java 17.0.4.1 on L-5CD119JCNF with PID 14580 (D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo\target\classes started by vijaykumbhar in D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo)
+2024-04-18 20:52:57,448 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-04-18 20:52:57,448 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-04-18 20:52:57,452 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2024-04-18 20:52:57,452 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2024-04-18 20:52:57,556 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-18 20:52:57,557 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-18 20:52:59,358 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9094 (http)
+2024-04-18 20:52:59,392 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9094"]
+2024-04-18 20:52:59,396 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-04-18 20:52:59,398 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-04-18 20:52:59,499 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-18 20:52:59,500 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1942 ms
+2024-04-18 20:53:00,635 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-04-18 20:53:00,667 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9094"]
+2024-04-18 20:53:00,737 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 9094 (http) with context path ''
+2024-04-18 20:53:00,775 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:00.773
+2024-04-18 20:53:00,775 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:00.773
+2024-04-18 20:53:00,780 INFO o.s.b.StartupInfoLogger [restartedMain] Started ScheduleDemoApplication in 4.332 seconds (JVM running for 9.512)
+2024-04-18 20:53:00,780 INFO o.s.b.StartupInfoLogger [restartedMain] Started ScheduleDemoApplication in 4.332 seconds (JVM running for 9.512)
+2024-04-18 20:53:01,775 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:01.775
+2024-04-18 20:53:01,775 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:01.775
+2024-04-18 20:53:25,024 INFO o.a.j.l.DirectJDKLog [http-nio-9094-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-18 20:53:25,025 INFO o.s.w.s.FrameworkServlet [http-nio-9094-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-18 20:53:25,026 INFO o.s.w.s.FrameworkServlet [http-nio-9094-exec-2] Completed initialization in 1 ms
+2024-04-18 20:53:25,147 INFO c.o.S.c.IndexController [http-nio-9094-exec-2] This is INFO Message
+2024-04-18 20:53:25,147 INFO c.o.S.c.IndexController [http-nio-9094-exec-2] This is INFO Message
+2024-04-18 20:53:25,148 ERROR c.o.S.c.IndexController [http-nio-9094-exec-2] This is ERRORMessage
+2024-04-18 20:53:25,148 ERROR c.o.S.c.IndexController [http-nio-9094-exec-2] This is ERRORMessage
+2024-04-18 20:53:25,149 DEBUG c.o.S.c.IndexController [http-nio-9094-exec-2] This is DEBUG Message
+2024-04-18 20:53:25,149 DEBUG c.o.S.c.IndexController [http-nio-9094-exec-2] This is DEBUG Message
+2024-04-18 20:53:30,778 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:30.776
+2024-04-18 20:53:30,778 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:30.776
+2024-04-18 20:53:31,786 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:31.785
+2024-04-18 20:53:31,786 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:31.785
+2024-04-18 20:53:51,068 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 10 class path changes (3 additions, 0 deletions, 7 modifications)
+2024-04-18 20:53:51,117 INFO o.a.j.l.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-9094"]
+2024-04-18 20:53:51,119 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2024-04-18 20:53:51,124 INFO o.a.j.l.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-04-18 20:53:51,138 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-9094"]
+2024-04-18 20:53:51,145 INFO o.a.j.l.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-9094"]
+2024-04-18 20:53:51,260 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ScheduleDemoApplication using Java 17.0.4.1 on L-5CD119JCNF with PID 14580 (D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo\target\classes started by vijaykumbhar in D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo)
+2024-04-18 20:53:51,260 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ScheduleDemoApplication using Java 17.0.4.1 on L-5CD119JCNF with PID 14580 (D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo\target\classes started by vijaykumbhar in D:\Course_Material\Source_Codes\Spring_Boot_Workspace\ScheduleDemo)
+2024-04-18 20:53:51,262 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-04-18 20:53:51,262 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-04-18 20:53:51,264 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "uat"
+2024-04-18 20:53:51,264 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "uat"
+2024-04-18 20:53:51,613 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9096 (http)
+2024-04-18 20:53:51,614 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9096"]
+2024-04-18 20:53:51,615 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-04-18 20:53:51,615 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-04-18 20:53:51,644 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-18 20:53:51,644 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 375 ms
+2024-04-18 20:53:51,811 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-04-18 20:53:51,834 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9096"]
+2024-04-18 20:53:51,845 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 9096 (http) with context path ''
+2024-04-18 20:53:51,861 INFO o.s.b.StartupInfoLogger [restartedMain] Started ScheduleDemoApplication in 0.677 seconds (JVM running for 60.593)
+2024-04-18 20:53:51,861 INFO o.s.b.StartupInfoLogger [restartedMain] Started ScheduleDemoApplication in 0.677 seconds (JVM running for 60.593)
+2024-04-18 20:53:51,866 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:51.865
+2024-04-18 20:53:51,866 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:53:51.865
+2024-04-18 20:53:51,867 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-04-18 20:53:52,864 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:52.863
+2024-04-18 20:53:52,864 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:53:52.863
+2024-04-18 20:54:15,891 INFO o.a.j.l.DirectJDKLog [http-nio-9096-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-18 20:54:15,892 INFO o.s.w.s.FrameworkServlet [http-nio-9096-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-18 20:54:15,895 INFO o.s.w.s.FrameworkServlet [http-nio-9096-exec-1] Completed initialization in 3 ms
+2024-04-18 20:54:15,899 INFO c.o.S.c.IndexController [http-nio-9096-exec-1] This is INFO Message
+2024-04-18 20:54:15,899 INFO c.o.S.c.IndexController [http-nio-9096-exec-1] This is INFO Message
+2024-04-18 20:54:15,900 ERROR c.o.S.c.IndexController [http-nio-9096-exec-1] This is ERRORMessage
+2024-04-18 20:54:15,900 ERROR c.o.S.c.IndexController [http-nio-9096-exec-1] This is ERRORMessage
+2024-04-18 20:54:15,900 DEBUG c.o.S.c.IndexController [http-nio-9096-exec-1] This is DEBUG Message
+2024-04-18 20:54:15,900 DEBUG c.o.S.c.IndexController [http-nio-9096-exec-1] This is DEBUG Message
+2024-04-18 20:54:21,873 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:54:21.872
+2024-04-18 20:54:21,873 DEBUG c.o.S.Utility [scheduling-1] Fixed Rate scheduler:: 2024-04-18 20:54:21.872
+2024-04-18 20:54:22,870 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:54:22.869
+2024-04-18 20:54:22,870 DEBUG c.o.S.Utility [scheduling-1] fixedRateSchInterval Fixed Rate scheduler:: 2024-04-18 20:54:22.869
